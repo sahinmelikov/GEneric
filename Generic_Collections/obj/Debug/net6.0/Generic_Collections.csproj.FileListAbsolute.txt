@@ -1,0 +1,15 @@
+C:\Users\555\OneDrive\Masaüstü\Generic_Collections\Generic_Collections\bin\Debug\net6.0\Generic_Collections.exe
+C:\Users\555\OneDrive\Masaüstü\Generic_Collections\Generic_Collections\bin\Debug\net6.0\Generic_Collections.deps.json
+C:\Users\555\OneDrive\Masaüstü\Generic_Collections\Generic_Collections\bin\Debug\net6.0\Generic_Collections.runtimeconfig.json
+C:\Users\555\OneDrive\Masaüstü\Generic_Collections\Generic_Collections\bin\Debug\net6.0\Generic_Collections.dll
+C:\Users\555\OneDrive\Masaüstü\Generic_Collections\Generic_Collections\bin\Debug\net6.0\Generic_Collections.pdb
+C:\Users\555\OneDrive\Masaüstü\Generic_Collections\Generic_Collections\obj\Debug\net6.0\Generic_Collections.csproj.AssemblyReference.cache
+C:\Users\555\OneDrive\Masaüstü\Generic_Collections\Generic_Collections\obj\Debug\net6.0\Generic_Collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\555\OneDrive\Masaüstü\Generic_Collections\Generic_Collections\obj\Debug\net6.0\Generic_Collections.AssemblyInfoInputs.cache
+C:\Users\555\OneDrive\Masaüstü\Generic_Collections\Generic_Collections\obj\Debug\net6.0\Generic_Collections.AssemblyInfo.cs
+C:\Users\555\OneDrive\Masaüstü\Generic_Collections\Generic_Collections\obj\Debug\net6.0\Generic_Collections.csproj.CoreCompileInputs.cache
+C:\Users\555\OneDrive\Masaüstü\Generic_Collections\Generic_Collections\obj\Debug\net6.0\Generic_Collections.dll
+C:\Users\555\OneDrive\Masaüstü\Generic_Collections\Generic_Collections\obj\Debug\net6.0\refint\Generic_Collections.dll
+C:\Users\555\OneDrive\Masaüstü\Generic_Collections\Generic_Collections\obj\Debug\net6.0\Generic_Collections.pdb
+C:\Users\555\OneDrive\Masaüstü\Generic_Collections\Generic_Collections\obj\Debug\net6.0\Generic_Collections.genruntimeconfig.cache
+C:\Users\555\OneDrive\Masaüstü\Generic_Collections\Generic_Collections\obj\Debug\net6.0\ref\Generic_Collections.dll
