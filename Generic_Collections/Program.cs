@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.ComponentModel;
 using System.ComponentModel.Design;
 
 namespace Generic_Collections
@@ -7,67 +8,36 @@ namespace Generic_Collections
     {
         static void Main(string[] args)
         {
-            Custom nums = new Custom();
-            nums.Add(1);
-            nums.Add(2);
-            nums.Add(3);
-            nums.Add(4);
+            Custom<string> nums = new Custom<string>();
+           
+            nums.Add("a");
+            nums.Add("aaaa");
+            nums.Add("hbhjb");
+            nums.Add("jbshkj");
             //nums.Count();
-            //nums.Remove(1);
-            //nums.Contains(4);
-            //nums.Clear();   
-            nums.Remove(4);
+            //nums.Remove("a");
+            //nums.Contains("jj");
+            //nums.Clear();
+            //nums.Remove("a");
 
-            //Custom strings = new Custom();
-            //strings.Add("a");
-            //strings.Add("b");
-            //strings.Add("c"); 
             //strings.Remove("c");
-
-
-            //try
-            //{
-            //    ArrayList arrayList = new ArrayList();
-            //    arrayList.Add("a");
-            //    arrayList.Add("b");
-            //    arrayList.Add("c");
-            //    arrayList.Add(1);
-            //    arrayList.Add(2);
-            //    arrayList.Add(3);
-            //    //arrayList.Clear();
-            //    arrayList.Contains("a");
-            //    //arrayList.Remove("A");
-            //        foreach (var item in arrayList)
-            //        {
-            //            Console.WriteLine(item);
-            //        }
-
-
-            //}
-            //catch (Exception ex)
-            //{
-
-            //    Console.WriteLine(ex.Message);
-            //}
-
 
         }
 
 
     }
-
-    class Custom  
+ 
+        class Custom  <T> where T:class
     {
-        private int[] custom;
+       public T[] custom;
         public Custom()
         {
-            custom = new int[0];
+            custom = new T[0];
         }
-     
 
 
 
-        public void Add( int element)
+            public void Add( T element)
         {
             Array.Resize(ref custom, custom.Length+1 );
             custom[custom.Length-1] = element;
@@ -75,7 +45,7 @@ namespace Generic_Collections
         }
 
 
-        public void Remove(int a )
+        public void Remove(T a )
         {
 
             for (int i = 0; i < custom.Length; i++)
@@ -86,15 +56,12 @@ namespace Generic_Collections
                    
                 }
                 Console.WriteLine(custom[i]);
-                if (false)
-                {
-                    Console.WriteLine("error");
-                }
+               
 
 
             }
         }
-        public void Contains(int num)
+        public void Contains(T num)
         {
             for (int i = 0; i < custom.Length; i++)
             {
